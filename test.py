@@ -5,9 +5,19 @@ t = Turtle()
 
 t.shape('turtle')
 
-t.forward(200)
+def drawSquare(x):
+   for i in range(4):
+    t.forward(x)
+    t.left(90)
 
-t.tilt(90)
+"""drawSquare(200)"""
+
+def drawEqualTriangle(x):
 
 
 turtle.done()
+
+def message(input):
+    print(input)
+
+message("wassuppp")
