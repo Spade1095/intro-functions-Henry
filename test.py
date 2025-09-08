@@ -7,4 +7,7 @@ t.shape('turtle')
 
 t.forward(200)
 
+t.tilt(90)
+
+
 turtle.done()
