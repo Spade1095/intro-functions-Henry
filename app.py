@@ -23,5 +23,35 @@ def doubleSquare(x,y):
 
 # doubleSquare(5,5)
    
+def addSquares(iRange,x,y):
+  for i in range(iRange):
+    drawSquare(x)
+    x = x+y
+
+# addSquares(5,25,25)
+
+def squareFractal2():
+  length = 5
+  for i in range(60):
+    drawSquare(length)
+    length += 5
+    t.left(5)
+# squareFractal2()
+
+def drawStar(length):
+  for i in range(5):
+    t.forward(length)
+    t.right(144)
+
+# drawStar(100)
+
+def starFractal():
+  length = 15
+  for i in range(60):
+    drawStar(length)
+    t.right(5)
+    length += 10
+
+# starFractal()
 
 turtle.done()
